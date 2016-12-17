@@ -22,4 +22,11 @@
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doThis"
+        android:text="View List"
+        android:layout_below="@+id/btnPress"
+        android:id="@+id/btnList"/>
 </RelativeLayout>

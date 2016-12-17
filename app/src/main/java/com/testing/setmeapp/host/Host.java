@@ -5,7 +5,7 @@ package com.testing.setmeapp.host;
  */
 public class Host {
 
-    private String host = "192.168.1.130:8080";
+    private String host = "192.168.0.8:8080";
 
     public String returnHost() {
         return host;
